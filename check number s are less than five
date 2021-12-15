@@ -1,0 +1,21 @@
+void main() {
+var lessthan = [];
+var greaterthan = [];
+	var numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
+  for(var i=0; i<numbers.length; i++)
+  {
+  if(numbers[i]<=5)
+  {
+  
+  lessthan.add(numbers[i]);
+  }
+  else
+  {
+ greaterthan.add(numbers[i]);
+  }
+  }
+  print("following numbers are less than 5");
+  print(lessthan);
+    print("Following numbers are greater than 5");
+  print(greaterthan);
+}
